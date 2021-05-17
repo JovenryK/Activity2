@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html {
+            display: flex;
+            justify-content: center;
+        }
+        
+        body {
+            position: relative;
+            top: 10px;
+            width: 620px;
+            background-color: white;
+        }
+        
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+        
+        .pic {
+            position: absolute;
+            left: 550px;
+            width: 210px;
+            height: 220px;
+            top: 0;
+            border: solid 1px;
+        }
+        
+        li {
+            position: absolute;
+            line-height: 2px;
+            left: 30px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        span {
+            position: absolute;
+            line-height: 2px;
+            left: 120px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        span.work-span,
+        li {
+            line-height: 1em;
+        }
+        
+        .name {
+            position: relative;
+            left: 320px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        .app {
+            position: relative;
+            left: 460px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        div {
+            background-color: whitesmoke;
+            border-radius: 10px;
+            width: 48em;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h2>JOVENRY KENNETH LORENCE S. RABANAL</h2>
+        <img class="pic" src="image\kent.jpg" alt="Kent image" width="100" height="120">
+        <p>Ramon Magsaysay</p>
+        <p>Aborlan, Palawan</p>
+        <p>096065</p>
+        <address>jovenryrabanal@gmail.com</address><br>
+
+        <h2>PERSONAL INFORMATION</h2><br>
+        <p>Date of birth <span>:July 5, 1999</span></p>
+        <p>Birth place <span>:Puerto Princesa City</span></p>
+        <p>Age <span>:21</span></p>
+        <p>Citizenship <span>:Filipino</span></p>
+        <p> Civil Status <span>:Single</span></p>
+        <p>Religion <span>:Roman Catholic</span></p><br>
+
+        <h2>EDUCATIONAL BACKGROUND</h2><br>
+        <p>Tertiary <span>Palawan State University, 2018-2019</span><br>
+            <span>Tiniguiban, Puerto Princesa City</span><br>
+            <span>Bachelor of Science in Computer Science</span><br>
+            <p>Secondary
+                <span>Westen Philippines University - Agricultural Science High</span><br>
+                <span>School, 2016-2018</span><br>
+                <span> San Juan, Aborlan, Palawan</span><br>
+                <span>Senior High</span><br>
+                <span>Western Philippines University - Agricultural Science High</p><br>
+            <span>School, 2012-2016</span><br>
+                <span>San Juan, Aborlan, Palawan</span><br>
+                <span>Junior High</span></p>
+            <br>
+            <p>Primary <span>Western Philippines University - Basic Education Laboratory</span><br>
+                <span>school, 2006 - 2012</span><br>
+                <span>San Juan, Aborlan, Palawan</span><br></p>
+
+            <h3>WORK EXPERIENCES</h3><br>
+            <p>2018 <span class="work-span">Senior FrontEnd Programmer</span> </p>
+            <p>2017-2018 <span class="work-span">Freelance Graphic Designer</span></p>
+            <p>2016-2017 <span class="work-span">Part-time FrontEnd Programmer</span> </p>
+
+            <h3>PROFFESIONAL SKILLS</h3><br>
+            <ol>
+                <li>Programming</li><br>
+                <li>Graphic Editor</li><br>
+            </ol>
+            <br>
+            <h3>REFERENCES</h3><br>
+            <p>
+                <b>Prof. Susan V. Madeja</b><br>Instructor<br>College of Agriculture, Forestry and Environmental Sciences<br>0997-969-2131
+            </p><br>
+            <p>
+                <b>Prof. Lealinda S. Canilla</b><br>Principal<br>Agricultural Science High School <br>0998-181-3131
+            </p><br>
+            <p>
+                <b>Dr. Maria Lourdes O. Marzo</b><br>Instructor<br>College of Agriculture, Forestry and Environmental Sciences, WPU-Main<br>0997-969-9909
+            </p><br><br><br>
+            <p class="name">JOVENRY KENNETH LORENCE S. RABANAL</p>
+            <p class="app">Applicant</p>
+    </div>
+</body>
+
+</html>
